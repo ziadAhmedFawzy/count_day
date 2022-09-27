@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count days</title>
+    <style>
+        body {
+            background-color: #fff2f5;
+            font-family: monospace;
+            text-align: center;
+        
+        }
+        h1 {
+            font-size: 80px;
+            margin-top: 200px;
+            display: inline-block;
+        }
+        .btns {
+            width: 40%;
+            margin: 10px auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        .btns button {
+            all: unset;
+        }
+        .btns .btn {
+            padding: 10px 15px;
+            border: 1px solid #222;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            transition-duration: 0.2s;
+            margin: 10px;
+            text-align: center;
+        }
+        .btns .btn:hover {
+            background-color: #222;
+            color: #eee;
+        }
+        span {
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="num">0</h1><span> days</span>
+    <div class="btns">
+        <button id="back" class="btn">back</button>
+        <button id="reset" class="btn">reset</button>
+        <button id="next" class="btn">next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
